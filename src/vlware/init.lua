@@ -350,7 +350,7 @@ if config.read(nil, "debug") then
 		if e == "timer" and k == timer then
 			break
 		elseif e == "key" and k == keys.leftCtrl then
-			lmnet_debug = true
+			vlware_debug = true
 			break
 		end
 	end
