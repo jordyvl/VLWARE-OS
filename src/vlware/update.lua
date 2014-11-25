@@ -149,7 +149,9 @@ local files = {
 	["src/apis/comgr.lua"] = ".vlware/apis/comgr",
 	["src/lang/en.lang"] = ".vlware/lang/en.lang",
 	["src/vlware/connor.lua"] = ".vlware/connor.sys",
-	["src/usrbin/print.lua"] = "usr/bin/print"
+	["src/usrbin/print.lua"] = "usr/bin/print",
+	["src/usrbin/shutdown.lua"] = "usr/bin/shutdown",
+	["src/usrbin/reboot.lua"] = "usr/bin/reboot",
 }
 local fileCount = 0
 for _ in pairs(files) do
