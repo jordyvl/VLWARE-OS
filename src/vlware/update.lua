@@ -195,8 +195,8 @@ clear()
 term.setCursorPos(2, 2)
 print("Creating missing directories...")
 local dirs = {
-	"root",
-	"home",
+	"SU",
+	"users",
 	".vlware/apis/http",
 	".vlware/apis/turtle",
 }
