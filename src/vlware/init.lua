@@ -232,8 +232,8 @@ apiList = {}
 
 -- initialize system directories (and create missing)
 systemDirs = {
-	users = "/home", -- users directory
-	root = "/root", -- root directory (root USER)
+	users = "/users", -- users directory
+	root = "/SU", -- root directory (root USER)
 	apps = "/usr/bin", -- applications directory
 	apis = "/.vlware/apis", -- API directory
 }
