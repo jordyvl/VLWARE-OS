@@ -152,6 +152,7 @@ local files = {
 	["src/usrbin/print.lua"] = "usr/bin/print",
 	["src/usrbin/shutdown.lua"] = "usr/bin/shutdown",
 	["src/usrbin/reboot.lua"] = "usr/bin/reboot",
+	["src/usrbin/exit.lua"] = "usr/bin/exit",
 }
 local fileCount = 0
 for _ in pairs(files) do
