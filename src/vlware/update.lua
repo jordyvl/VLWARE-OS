@@ -211,11 +211,11 @@ elseif fs.exists("startup") and not fs.isDir("startup") then
 	local oldSu = fs.open("startup", "r")
 	local oSu = oldSu.readAll()
 	oldSu.close()
-	local newSu = fs.open("lmnet", "r")
+	local newSu = fs.open("vlware", "r")
 	local nSu = newSu.readAll()
 	newSu.close()
 	if oSu ~= nSu then
-		local overwrite = yesno("Replace old startup?\n\n(\"No\" to run LMNet OS with \"lmnet\")", "Old startup detected.", false)
+		local overwrite = yesno("Replace old startup?\n\n(\"No\" to run VLWARE OS with \"vlware\")", "Old startup detected.", false)
 		if overwrite then
 			fs.delete("startup")
 			fs.copy("vlware", "startup")
