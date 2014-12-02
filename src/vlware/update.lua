@@ -132,6 +132,7 @@ local files = {
 	["src/usrbin/remotesv.lua"] = "usr/bin/remotesv",
 	["src/usrbin/scrshare.lua"] = "usr/bin/scrshare",
 	["src/usrbin/startw.lua"] = "usr/bin/startw",
+	["src/usrbin/startg.lua"] = "usr/bin/startg",
 	["src/usrbin/switch.lua"] = "usr/bin/switch",
 	["src/usrbin/updater.lua"] = "usr/bin/updater",
 	["src/usrbin/userctl.lua"] = "usr/bin/userctl",
