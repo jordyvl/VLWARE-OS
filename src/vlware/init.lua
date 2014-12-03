@@ -363,7 +363,7 @@ function localize(key)
 	return config.read(".vlware/lang/"..config.read(nil, "lang")..".lang", key) or config.read(".vlware/lang/en.lang", key) or key
 end
 
-if lmnet_debug then
+if vlware_debug then
 	clear()
 	print("VLWARE OS debug mode")
 	shell.setDir(".vlware")
