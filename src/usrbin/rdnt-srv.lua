@@ -10,7 +10,7 @@ local input = string.lower(read())
 if input ~= "y" then
 	return
 end
-local urlOK = fs.exists(".lmnet/rdnt-srv.conf")
+local urlOK = fs.exists(".vlware/rdnt-srv.conf")
 while not urlOK do
 	clear()
 	print("rdnt-srv")
@@ -29,7 +29,7 @@ while not urlOK do
 		status = "The URL '"..input.."'is already in use."
 	else
 		urlOK = true
-		local file = fs.open(".lmnet/rdnt-srv.conf", "w")
+		local file = fs.open(".vlware/rdnt-srv.conf", "w")
 		file.write("url=\""..input.."\"")
 		file.close()
 	end
@@ -37,12 +37,12 @@ end
 
 local remote = http.get("https://raw.github.com/MultHub/LMNet-OS/extra/rdnt-server.lua")
 if remote then
-	local file = fs.open(".lmnet/rdnt-server.lua", "w")
+	local file = fs.open(".vlware/rdnt-server.lua", "w")
 	file.write(remote.readAll())
 	file.close()
 	remote.close()
 end
-if not fs.exists(".lmnet/rdnt-server.lua") then
+if not fs.exists(".vlware/rdnt-server.lua") then
 	printError("Error installing rdnt-srv.")
 	printError("Please try again later.")
 	return
@@ -54,6 +54,6 @@ if fs.exists("startup") then
 	end
 	fs.move("startup", "startup.rdntbak")
 end
-fs.copy(".lmnet/rdnt-server.lua", "startup")
+fs.copy(".vlware/rdnt-server.lua", "startup")
 
 print("rdnt-srv installed. Create the file 'site' if it doesn't exist.")
