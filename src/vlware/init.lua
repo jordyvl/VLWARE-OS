@@ -1,5 +1,6 @@
 if not fs or not term or not shell then
 	print("No CraftOS APIs found (not running on CraftOS).")
+	print("Sorry not able to run without CraftOS API,s")
 	if os.getenv("OS") == "Windows_NT" then
 		print("You are a proud Windows user.")
 	end
