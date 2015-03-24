@@ -149,6 +149,7 @@ local files = {
 	["src/lang/en.lang"] = ".vlware/lang/en.lang",
 	["src/lang/nl.lang"] = ".vlware/lang/nl.lang",
 	["src/lang/de.lang"] = ".vlware/lang/de.lang",
+	["src/lang/de.lang"] = ".vlware/lang/es.lang",
 	["src/vlware/connor.lua"] = ".vlware/connor.sys",
 	["src/usrbin/print.lua"] = "usr/bin/print",
 	["src/usrbin/shutdown.lua"] = "usr/bin/shutdown",
