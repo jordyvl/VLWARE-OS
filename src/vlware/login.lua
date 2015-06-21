@@ -30,7 +30,7 @@ if not fs.exists("/.vlware/users.db") then
 				print("- "..v.user)
 			end
 			print("")
-			write("User (blank to stop): ")
+			write("User (leave empty to stop): ")
 			local user = read()
 			for _, v in pairs(users) do
 				if v.user == user then
