@@ -5,6 +5,7 @@ end
 
 if currentUser and currentUser ~= "root" then
 	printError("userctl: Permission denied")
+	printError("Please login as root!")
 	return
 end
 
