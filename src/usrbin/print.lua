@@ -9,6 +9,7 @@ if not fs.exists(".vlware/apis/ui") then
 	end
 	if not http then
 		printError("HTTP not enabled.")
+		printError("Please enable HTTP in the config or check your connection")
 		return
 	end
 	local remote = http.get("https://raw.github.com/jordyvl/VLWARE-OS/master/src/apis/ui.lua")
