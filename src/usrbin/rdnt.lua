@@ -120,6 +120,7 @@ function rdnt.goto(url)
 		else
 			rdnt.clear()
 			print("Failed to connect to '"..url.."'.")
+			print("Check your connection or")
 			print("Ask the server administrator to fix this problem.")
 		end
 	end
@@ -132,6 +133,7 @@ internalPages = {
 	["home"] = function()
 		rdnt.clear()
 		print("Welcome to rdnt!")
+		print("The ComputerCraft browser")
 		print("Press left Ctrl to enter a URL.")
 		print("Enter rdnt.intpages to view internal pages.")
 		print("Enter rdnt.exit to exit.")
