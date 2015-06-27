@@ -1,5 +1,6 @@
 if not git then
 	printError("Git API not loaded")
+	printError("Please load the API")
 	return
 end
 
