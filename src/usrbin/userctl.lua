@@ -1,5 +1,5 @@
 if not fs then
-	print("Not running in CraftOS.")
+	print("Not running in VLWARE-OS.")
 	return
 end
 
