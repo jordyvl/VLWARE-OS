@@ -1,5 +1,5 @@
 if not turtle then
-	printError("Not a turtle")
+	printError("Only a turtle can create things")
 	return
 end
 
