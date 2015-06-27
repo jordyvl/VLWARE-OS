@@ -1,5 +1,6 @@
 local tArgs = {...}
 if #tArgs < 1 then
+	print("VLWARE-OS Software Loader")
 	print("Usage: loader args [args ...]")
 	print("Arg format:")
 	print("mode=par;par;...")
