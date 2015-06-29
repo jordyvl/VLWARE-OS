@@ -23,7 +23,7 @@ if fs.find then
 			elseif #tFiles == 1 then
 				fs.move( sFile, sDest )
 			else
-				printError( "Cannot overwrite file multiple times" )
+				printError( "Cannot overwrite file multiple times!" )
 				return
 			end
 		end
