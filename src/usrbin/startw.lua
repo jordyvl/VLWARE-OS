@@ -1,6 +1,6 @@
 local parentTerm = term.current and term.current() or nil
 if not parentTerm then
-	print("The VLWARE OS window system requires ComputerCraft 1.6.")
+	printError("The VLWARE OS window system requires ComputerCraft 1.6.")
 	return
 end
 
