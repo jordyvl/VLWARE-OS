@@ -8,6 +8,7 @@ end
 
 if not modemsFound then
 	printError("No modems attached")
+	print("This program requires a modem to run!")
 	return
 end
 
