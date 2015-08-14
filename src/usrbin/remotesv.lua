@@ -1,5 +1,6 @@
 if not turtle then
  printError("Not a turtle")
+ print"To control a turtle u need remotecl.lua!"
  return
 end
 
