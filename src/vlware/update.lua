@@ -146,6 +146,7 @@ local files = {
 	["src/apis/ui.lua"] = ".vlware/apis/ui",
 	["src/apis/json.lua"] = ".vlware/apis/json",
 	["src/apis/comgr.lua"] = ".vlware/apis/comgr",
+	["src/usrbin/s.lua"] = "usr/bin/s"
 	["src/lang/en.lang"] = ".vlware/lang/en.lang",
 	["src/lang/nl.lang"] = ".vlware/lang/nl.lang",
 	["src/lang/de.lang"] = ".vlware/lang/de.lang",
