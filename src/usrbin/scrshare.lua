@@ -6,7 +6,7 @@ end
 
 local mon = peripheral.wrap(tArgs[1])
 if not mon then
-	printError("Invalid monitor")
+	printError("Invalid monitor side or number")
 	return
 end
 
