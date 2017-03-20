@@ -1,3 +1,4 @@
+print("Dupe Mode!")
 turtle.select(1)
 turtle.suck(21)
 turtle.suck(21)
