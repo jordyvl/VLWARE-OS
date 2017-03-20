@@ -132,7 +132,7 @@ end
 internalPages = {
 	["home"] = function()
 		rdnt.clear()
-		print("Welcome to rdnt!")
+		print("Welcome to rdnt explorer!")
 		print("The ComputerCraft browser")
 		print("Press left Ctrl to enter a URL.")
 		print("Enter rdnt.intpages to view internal pages.")
