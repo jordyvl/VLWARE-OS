@@ -219,7 +219,7 @@ else
 		local eventData = {os.pullEventRaw()}
 		if eventData[1] == "terminate" then
 			clear()
-			print("Termination is not allowed.")
+			print("Termination is not allowed, Please login first!")
 			sleep(2)
 		elseif eventData[1] == "key" then
 			if eventData[2] == keys.up and selected > 1 then
