@@ -4,7 +4,7 @@ local function clear()
 end
 
 clear()
-print("Installing rdnt-srv will overwrite the current startup file.")
+print("Installing rdnt-srv will overwrite the current startup file. Server edition will not be bootable!")
 write("Install rdnt-srv on this machine? [yN] ")
 write("A network connection is required to install this!")
 local input = string.lower(read())
