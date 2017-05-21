@@ -58,7 +58,7 @@ local page = 1
 
 local function redraw(mode)
 	clear()
-	cprint("VLWARE OS: User control")
+	cprint("VLWARE OS: User control panel")
 	print("Select user with arrow keys.")
 	print("Modes:")
 	print("(a)dd, (d)elete, (c)hange password, (m)ove user")
