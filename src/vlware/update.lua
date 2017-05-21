@@ -160,6 +160,7 @@ local files = {
 	["src/usrbin/reboot.lua"] = "usr/bin/reboot",
 	["src/usrbin/exit.lua"] = "usr/bin/exit",
 	["src/usrbin/smartPaste.lua"] = "usr/bin/smartPaste",
+	["src/usrbin/ls.lua"] = "usr/bin/ls",
 }
 local fileCount = 0
 for _ in pairs(files) do
